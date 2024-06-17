@@ -1,0 +1,173 @@
+==========Registration==========
+
+    url:http://127.0.0.1:8000/api/v1/register/
+
+    method:post
+
+    data:{
+        "username":"your username",
+        "email":"your email",
+        "password1":"your password",
+        "password2":"password repeat"
+        }
+
+    authorization:nill
+
+    status:completed
+
+
+==========Login(Token)==========
+
+    url:http://127.0.0.1:8000/api/v1/token/
+
+    method:post
+
+    data:{
+        "username":"your valid username",
+       
+        "password":"your valid  password"
+        }
+
+    authorization:nill
+
+    status:completed
+
+
+==========products==========
+
+    >>> api for listing all products <<<<
+    
+        url:http://127.0.0.1:8000/api/v1/products/
+
+        method:get
+
+        data:nill
+
+        authorization:Token
+
+        status:completed
+    
+    >>> api for fetching a specific product detail <<<<
+
+        url:http://127.0.0.1:8000/api/v1/products/{id}/
+
+        method:get
+
+        data:nill
+
+        authorization:Token
+
+        status:completed
+
+    >>> api for adding a specific product to basket <<<<
+
+        url:http://127.0.0.1:8000/api/v1/products/{id}/addtocart/
+
+        method:post
+
+        data:{
+
+            "size":"product size",
+            "quantity":"product quantitity",
+
+        }
+
+        authorization:Token
+
+        status:completed
+    
+
+==========carts==========
+
+    >>> api for listing all cart items <<<<
+    
+        url:http://127.0.0.1:8000/api/v1/carts/
+
+        method:get
+
+        data:nill
+
+        authorization:Token
+
+        status:completed
+
+    >>> api for updating a  cart item <<<<
+    
+        url:http://127.0.0.1:8000/api/v1/carts/{id}/
+
+        method:put
+
+        data:{ 
+                "size":"product size",
+                "quantity":"product quantitity"
+                
+            }
+
+        authorization:Token
+
+        status:completed
+
+    >>> api for remove a  cart item <<<<
+    
+        url:http://127.0.0.1:8000/api/v1/carts/{id}/
+
+        method:delete
+
+        data:nill
+
+        authorization:Token
+
+        status:completed
+
+
+
+
+==========order==========
+
+    >>> api for creating a order<<<<
+    
+        url:http://127.0.0.1:8000/api/v1/order/
+
+        method:post
+
+        data:{
+
+            "delivery_address":"delivery address",
+
+            "phone":"your phoine number",
+
+            "email":"your email",
+
+            "payment_mode":"payment method",
+
+            "pin":"pin"
+
+        }
+
+        authorization:Token
+
+        status:pending
+
+    >>> api for listing a orders<<<<    
+    
+        url:http://127.0.0.1:8000/api/v1/order/summary/
+
+        method:get
+
+        data:nill
+
+        authorization:Token
+
+        status:pending
+
+    >>> api for cancel order<<<<    
+        
+            url:http://127.0.0.1:8000/api/v1/order/{id}/
+
+            method:delete
+
+            data:nill
+
+            authorization:Token
+
+            status:pending

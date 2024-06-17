@@ -1,0 +1,381 @@
+[
+    
+    {
+        "model": "shop.category",
+        "pk": 1,
+        "fields": {
+            "name": "Men's Clothing",
+            "created_date": "2024-03-04T07:37:13.877Z",
+            "updated_date": "2024-03-04T07:37:13.877Z",
+            "is_active": true
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 2,
+        "fields": {
+            "name": "Women's Clothing",
+            "created_date": "2024-03-04T07:37:30.928Z",
+            "updated_date": "2024-03-04T07:37:30.928Z",
+            "is_active": true
+        }
+    },
+    {
+        "model": "shop.size",
+        "pk": 7,
+        "fields": {
+            "name": "XS",
+            "created_date": "2024-03-04T07:46:24.375Z",
+            "updated_date": "2024-03-04T07:46:24.375Z",
+            "is_active": true
+        }
+    },
+    {
+        "model": "shop.size",
+        "pk": 8,
+        "fields": {
+            "name": "S",
+            "created_date": "2024-03-04T07:46:28.806Z",
+            "updated_date": "2024-03-04T07:46:28.806Z",
+            "is_active": true
+        }
+    },
+    {
+        "model": "shop.size",
+        "pk": 9,
+        "fields": {
+            "name": "M",
+            "created_date": "2024-03-04T07:46:32.617Z",
+            "updated_date": "2024-03-04T07:46:32.617Z",
+            "is_active": true
+        }
+    },
+    {
+        "model": "shop.size",
+        "pk": 10,
+        "fields": {
+            "name": "L",
+            "created_date": "2024-03-04T07:46:34.986Z",
+            "updated_date": "2024-03-04T07:46:34.986Z",
+            "is_active": true
+        }
+    },
+    {
+        "model": "shop.size",
+        "pk": 11,
+        "fields": {
+            "name": "XL",
+            "created_date": "2024-03-04T07:46:40.187Z",
+            "updated_date": "2024-03-04T07:46:40.187Z",
+            "is_active": true
+        }
+    },
+    {
+        "model": "shop.size",
+        "pk": 12,
+        "fields": {
+            "name": "XXL",
+            "created_date": "2024-03-04T07:46:44.131Z",
+            "updated_date": "2024-03-04T07:46:44.131Z",
+            "is_active": true
+        }
+    },
+    {
+        "model": "shop.brand",
+        "pk": 1,
+        "fields": {
+            "name": "Anouk",
+            "created_date": "2024-03-04T07:40:11.458Z",
+            "updated_date": "2024-03-04T07:40:11.458Z",
+            "is_active": true
+        }
+    },
+    {
+        "model": "shop.brand",
+        "pk": 2,
+        "fields": {
+            "name": "Taavi",
+            "created_date": "2024-03-04T07:40:19.784Z",
+            "updated_date": "2024-03-04T07:40:19.784Z",
+            "is_active": true
+        }
+    },
+    {
+        "model": "shop.brand",
+        "pk": 3,
+        "fields": {
+            "name": "Here and now",
+            "created_date": "2024-03-04T07:40:36.485Z",
+            "updated_date": "2024-03-04T07:40:36.485Z",
+            "is_active": true
+        }
+    },
+    {
+        "model": "shop.brand",
+        "pk": 4,
+        "fields": {
+            "name": "Adidas",
+            "created_date": "2024-03-04T07:43:26.922Z",
+            "updated_date": "2024-03-04T07:43:26.922Z",
+            "is_active": true
+        }
+    },
+    {
+        "model": "shop.brand",
+        "pk": 5,
+        "fields": {
+            "name": "Rare Rabbit",
+            "created_date": "2024-03-04T16:11:50.837Z",
+            "updated_date": "2024-03-04T16:11:50.837Z",
+            "is_active": true
+        }
+    },
+    {
+        "model": "shop.brand",
+        "pk": 6,
+        "fields": {
+            "name": "Roadster",
+            "created_date": "2024-03-04T16:11:58.011Z",
+            "updated_date": "2024-03-04T16:11:58.011Z",
+            "is_active": true
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 1,
+        "fields": {
+            "title": "T-shirt",
+            "description": "Vicose rayon material",
+            "category_object": 1,
+            "brand_object": 4,
+            "image": "product_images/img_4.jpeg",
+            "price": 1000,
+            "created_date": "2024-03-04T07:51:11.155Z",
+            "updated_date": "2024-03-04T16:25:25.870Z",
+            "is_active": true,
+            "size_object": [
+                12
+            ]
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 2,
+        "fields": {
+            "title": "T-shirt",
+            "description": "Round neck short sleeves Cotton Applique slim fit t-shirt",
+            "category_object": 1,
+            "brand_object": 4,
+            "image": "product_images/on-1.jpg",
+            "price": 2199,
+            "created_date": "2024-03-04T16:10:46.718Z",
+            "updated_date": "2024-03-04T16:10:46.718Z",
+            "is_active": true,
+            "size_object": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 3,
+        "fields": {
+            "title": "T-shirt",
+            "description": "Green colored slim fit T-shirt",
+            "category_object": 1,
+            "brand_object": 5,
+            "image": "product_images/on-2.jpeg",
+            "price": 1999,
+            "created_date": "2024-03-04T16:14:07.949Z",
+            "updated_date": "2024-03-04T16:14:07.949Z",
+            "is_active": true,
+            "size_object": [
+                8,
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 4,
+        "fields": {
+            "title": "Shirt",
+            "description": "Olive green colored shirt with collar",
+            "category_object": 1,
+            "brand_object": 6,
+            "image": "product_images/on-4.jpg",
+            "price": 1099,
+            "created_date": "2024-03-04T16:15:20.954Z",
+            "updated_date": "2024-03-04T16:15:20.954Z",
+            "is_active": true,
+            "size_object": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 5,
+        "fields": {
+            "title": "T-shirt",
+            "description": "Light blue colored T-shirt",
+            "category_object": 1,
+            "brand_object": 1,
+            "image": "product_images/on-3.jpeg",
+            "price": 899,
+            "created_date": "2024-03-04T16:17:03.847Z",
+            "updated_date": "2024-03-04T16:17:03.847Z",
+            "is_active": true,
+            "size_object": [
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 6,
+        "fields": {
+            "title": "Shirt",
+            "description": "Grey colored shirt with collar",
+            "category_object": 1,
+            "brand_object": 5,
+            "image": "product_images/on-5.jpeg",
+            "price": 2799,
+            "created_date": "2024-03-04T16:18:39.429Z",
+            "updated_date": "2024-03-04T16:18:39.429Z",
+            "is_active": true,
+            "size_object": [
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 7,
+        "fields": {
+            "title": "suit",
+            "description": "olive green colored",
+            "category_object": 2,
+            "brand_object": 6,
+            "image": "product_images/on-6.jpg",
+            "price": 1999,
+            "created_date": "2024-03-04T16:20:54.623Z",
+            "updated_date": "2024-03-04T16:20:54.623Z",
+            "is_active": true,
+            "size_object": [
+                8,
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 8,
+        "fields": {
+            "title": "Long dress",
+            "description": "Blu colored long dress with white shrug",
+            "category_object": 2,
+            "brand_object": 3,
+            "image": "product_images/on-7.jpg",
+            "price": 999,
+            "created_date": "2024-03-04T16:22:37.421Z",
+            "updated_date": "2024-03-04T16:22:37.421Z",
+            "is_active": true,
+            "size_object": [
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 9,
+        "fields": {
+            "title": "Kurta",
+            "description": "Blue colored kurta set",
+            "category_object": 2,
+            "brand_object": 2,
+            "image": "product_images/on-8.jpg",
+            "price": 899,
+            "created_date": "2024-03-04T16:23:31.687Z",
+            "updated_date": "2024-03-04T16:23:31.687Z",
+            "is_active": true,
+            "size_object": [
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 10,
+        "fields": {
+            "title": "Baggy jeans",
+            "description": "Blue colored jeans",
+            "category_object": 2,
+            "brand_object": 6,
+            "image": "product_images/on-9.jpg",
+            "price": 1999,
+            "created_date": "2024-03-04T16:24:23.572Z",
+            "updated_date": "2024-03-04T16:24:23.572Z",
+            "is_active": true,
+            "size_object": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 11,
+        "fields": {
+            "title": "Jeans",
+            "description": "Blue jeans",
+            "category_object": 2,
+            "brand_object": 3,
+            "image": "product_images/on-10.png",
+            "price": 799,
+            "created_date": "2024-03-04T16:25:09.933Z",
+            "updated_date": "2024-03-04T16:25:09.933Z",
+            "is_active": true,
+            "size_object": [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        }
+    }
+    
+]
